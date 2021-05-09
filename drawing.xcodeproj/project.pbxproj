@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D41D35B92645190000B31A5B /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41D35B82645190000B31A5B /* ViewController2.swift */; };
+		D40D54A12647CE4B00F3742A /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40D54A02647CE4B00F3742A /* ViewController2.swift */; };
 		D41D35BD264524D300B31A5B /* screenCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41D35BC264524D300B31A5B /* screenCapture.swift */; };
 		D47DE1FB264455DA00380E27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47DE1FA264455DA00380E27 /* AppDelegate.swift */; };
 		D47DE1FD264455DA00380E27 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47DE1FC264455DA00380E27 /* SceneDelegate.swift */; };
@@ -18,7 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D41D35B82645190000B31A5B /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController2.swift; path = ../../get_photo/get_photo/ViewController2.swift; sourceTree = "<group>"; };
+		D40D54A02647CE4B00F3742A /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController2.swift; path = ../ViewController2.swift; sourceTree = "<group>"; };
 		D41D35BC264524D300B31A5B /* screenCapture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = screenCapture.swift; sourceTree = "<group>"; };
 		D47DE1F7264455DA00380E27 /* drawing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = drawing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D47DE1FA264455DA00380E27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -60,7 +60,7 @@
 		D47DE1F9264455DA00380E27 /* drawing */ = {
 			isa = PBXGroup;
 			children = (
-				D41D35B82645190000B31A5B /* ViewController2.swift */,
+				D40D54A02647CE4B00F3742A /* ViewController2.swift */,
 				D47DE1FA264455DA00380E27 /* AppDelegate.swift */,
 				D47DE1FC264455DA00380E27 /* SceneDelegate.swift */,
 				D47DE1FE264455DA00380E27 /* ViewController.swift */,
@@ -145,9 +145,9 @@
 			files = (
 				D47DE1FF264455DA00380E27 /* ViewController.swift in Sources */,
 				D47DE1FB264455DA00380E27 /* AppDelegate.swift in Sources */,
-				D41D35B92645190000B31A5B /* ViewController2.swift in Sources */,
 				D41D35BD264524D300B31A5B /* screenCapture.swift in Sources */,
 				D47DE1FD264455DA00380E27 /* SceneDelegate.swift in Sources */,
+				D40D54A12647CE4B00F3742A /* ViewController2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
