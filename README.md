@@ -19,4 +19,5 @@ swift를 통해서 그림판을 구현해 보았고
 ![구현4](https://user-images.githubusercontent.com/76652929/117564525-672f0200-b0e7-11eb-8b45-4292df7bb2c5.PNG)
 
 
-![구현5](https://user-images.githubusercontent.com/76652929/117564528-68602f00-b0e7-11eb-8d03-122fa70d1fca.PNG)
+![구현5](https://user-images.githubusercontent.com/76652929/117564807-deb16100-b0e8-11eb-9fa4-e9432599f4c7.PNG)
+
