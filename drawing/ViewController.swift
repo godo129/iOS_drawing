@@ -69,5 +69,30 @@ class ViewController: UIViewController {
         imgView.image = nil
     }
     
+    
+    
+    
+    @IBAction func screenshot(_ sender: UIButton) {
+        self.takeScreenshot()    }
+    
+    
+    
+    
+    
+    open func takeScreenshot(_ shouldSave: Bool = true) -> UIImage? {
+        print("takeScreenshot")
+        var screenshotImage :UIImage?
+        let layer = UIApplication.shared.keyWindow!.layer
+        let scale = UIScreen.main.scale
+        UIGraphicsBeginImageContextWithOptions(layer.frame.size, false, scale);
+        guard let context = UIGraphicsGetCurrentContext() else {return nil}
+        layer.render(in:context)
+        screenshotImage = UIGraphicsGetImageFromCurrentImageContext()
+        UIGraphicsEndImageContext()
+        if let image = screenshotImage, shouldSave {
+            UIImageWriteToSavedPhotosAlbum(image, nil, nil, nil)
+        }
+        return screenshotImage
+    }
 }
 
